@@ -1,0 +1,20 @@
+{
+  "name": "occ-project-dcu",
+  "version": "1.0.0",
+  "description": "A simple CLI to help with your daily OCC development.",
+  "main": "index.js",
+  "bin": {
+    "occ": "./index.js"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "chokidar": "^3.4.0",
+    "commander": "^5.1.0",
+    "compare-versions": "^3.6.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.1.0",
+    "shelljs": "^0.8.4"
+  },
+  "author": "Junior Alves",
+  "license": "MIT"
+}
