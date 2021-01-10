@@ -1,2 +1,11 @@
 node_modules/
 .env
+src/.ccc
+src/element
+src/global
+src/siteSettings
+src/snippets
+src/stack
+src/static
+src/theme
+src/widget
