@@ -73,6 +73,6 @@ if (program.start) {
       }
     }
   } else {
-    console.log('You need to start the project first.');
+    console.log('You need to start the project first, run $occ -s to start project');
   }
 }
