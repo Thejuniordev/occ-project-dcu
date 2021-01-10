@@ -41,11 +41,11 @@ const Methods = {
     return inquirer
       .prompt([{
           name: 'adminUrl',
-          message: 'Admin URL:',
+          message: 'Admin OCC URL:',
         },
         {
           name: 'appKey',
-          message: 'AppKey:',
+          message: 'Your AppKey:',
         },
       ]);
   },
