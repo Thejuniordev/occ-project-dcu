@@ -24,7 +24,7 @@ const Methods = {
         console.log('Grabbing your files, please wait.');
         dcu.grab(adminUrl, appKey);
       } else {
-        console.log('Your project is ready! Use -g for grabing');
+        console.log('Your project is ready! Install npm in your DesignCodeUtility, go to cd DesignCodeUtility/ run npm i');
       }
     } else {
       console.log('.env found, delete it and try again.');
