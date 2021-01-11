@@ -18,7 +18,7 @@ program
   .option('-p, --putAll <path>', 'upload the entire path')
   .option('-t, --put <file>', 'upload the entire path')
   .option('-e, --env <operation>', 'start the environment manager [change|config|current]')
-  .option('-r, --transfer <path>', 'transfer widgets between current and target environment')
+  .option('-s, --transfer <path>', 'transfer widgets between current and target environment')
   .option('-g, --grab', 'start grab on the current environment.')
   .parse(process.argv);
 
