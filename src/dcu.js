@@ -4,6 +4,7 @@ const { CONSTANTS } = require('./constants');
 const { occEnv } = require('./occEnv');
 
 const DCU_BASE_COMMAND = `node ${CONSTANTS.PATHS.DCU} -b ${CONSTANTS.PATHS.SRC} -n ${process.env.OCC_ADMIN_URL} -k ${process.env.OCC_APP_KEY}`;
+const DCU_BASE_PUT = `node ${CONSTANTS.PATHS.DCU} -k ${process.env.OCC_APP_KEY} -n ${process.env.OCC_ADMIN_URL}`;
 
 const Methods =  {
     grab: (adminUrl, appKey) => {
@@ -16,17 +17,18 @@ const Methods =  {
         });
     },
 
-    put: (file) => {
-        
+    put: file => {
         shell.exec(`${DCU_BASE_COMMAND} -t "${file}"`, {
             async: false,
         });
+        console.log('Meu file: ', file);
     },
 
     refresh: path => {
         shell.exec(`${DCU_BASE_COMMAND} -e "${path.replace(/\/$/g, '')}"`, {
             async: false,
         });
+        console.log('Meu file: ', path);
     },
     
     putAll: path => {
