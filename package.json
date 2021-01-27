@@ -7,11 +7,11 @@
     "occ": "./index.js"
   },
   "scripts": {
-    "validate": "node index.js validate",
-    "validateDataBinds": "node index.js validateDataBinds",
-    "validateKOControlFlow": "node index.js validateKOControlFlow",
-    "grepAllJs": "node index.js grepAllJs",
-    "help": "node index.js help"
+    "validate": "node validate.js validate",
+    "validateDataBinds": "node validate.js validateDataBinds",
+    "validateKOControlFlow": "node validate.js validateKOControlFlow",
+    "grepAllJs": "node validate.js grepAllJs",
+    "help": "node validate.js help"
   },
   "dependencies": {
     "browser-sync": "^2.26.13",
