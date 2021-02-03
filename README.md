@@ -43,5 +43,6 @@ The following table describes the options you can use with `occ`.
 | `-r, --refresh <path>` | Refreshes content from the Commerce instance within the specified directory. |
 | `-p, --putAll <path>` | Sends everything from the specified directory. |
 | `-e, --env <operation>` | Starts the Environment Manager. <br><br> **Options:** `current`, `config`, `change`. |
-| `-t, --transfer <path>` | Transfers things between current and selected environment. |
+| `-t, --put <path/file>` | upload the entire path. |
+| `-s, --transfer <path>` | Transfers things between current and selected environment. |
 | `-g, --grab <path>` | Starts grabbing everything from current environment. |
