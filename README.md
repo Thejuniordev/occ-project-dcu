@@ -5,7 +5,7 @@ A simple CLI to help with your daily OCC development.
 
 # Installation
 ```sh
-npm install -g oracle-commerce-cli
+npm install -g occ-project-dcu
 ```
 
 # Getting Started
