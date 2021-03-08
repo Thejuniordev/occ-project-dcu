@@ -1,9 +1,0 @@
-define(["jquery", "knockout", "pubsub"], function($, ko, pubsub) {
-  "use strict";
-
-  return {
-    elementName: "{elementTag}",
-    onLoad: function(widget) {
-    }
-  };
-});
