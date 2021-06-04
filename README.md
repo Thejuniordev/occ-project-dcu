@@ -39,7 +39,7 @@ The following table describes the options you can use with `occ`.
 | `-V, --version` | Provides the CLI's version |
 | `-s, --start` | Starts the project setup |
 | `-d, --dev` | Starts Watcher + Browsersync. <br><br> **Note:** [Click here](https://github.com/eduardokeneeth/oracle-commerce-project-example#browsersync) to see how configure Browsersync. |
-| `-c, --create <type>` | Creates widget or element. <br><br> **Options:** `widget`, `element`. |
+| `-c, --create <type>` | Creates widget or element. <br><br> **Options:** `widget`, `element`, `sitesettings`. |
 | `-r, --refresh <path>` | Refreshes content from the Commerce instance within the specified directory. |
 | `-p, --putAll <path>` | Sends everything from the specified directory. |
 | `-e, --env <operation>` | Starts the Environment Manager. <br><br> **Options:** `current`, `config`, `change`. |
