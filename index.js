@@ -60,6 +60,9 @@ if (program.start) {
         case 'element':
           ccw.createElement();
           break;
+        case 'sitesettings':
+          ccw.createSiteSettings();
+          break;
       }
     }
     

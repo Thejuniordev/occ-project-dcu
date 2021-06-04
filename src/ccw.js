@@ -11,6 +11,9 @@ const Methods = {
     createElement: () => {
         childProcess.execSync(`${CCW_BASE_COMMAND} -e`, { stdio: 'inherit' });
     },
+    createSiteSettings: () => {
+        childProcess.execSync(`${CCW_BASE_COMMAND} -t`, { stdio: 'inherit' });
+    },
 };
 
 exports.ccw = Methods;
